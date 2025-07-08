@@ -25,14 +25,13 @@ into the {body} of the default.hbs template --}}
             {{#match @custom.navigation_layout "Logo on cover"}}
                 {{#if @site.logo}}
                     {{!-- <img class="site-logo" src="{{@site.logo}}" alt="{{@site.title}}"> --}}
-                    <h1 class="site-title">Mehr Power ⚡️ für<br />dein Azure Projekt</h1>
+                    <h1 class="site-title">Mehr Power ⚡️ für dein Azure Projekt</h1>
                 {{else}}
                     <h1 class="site-title">{{@site.title}}</h1>
                 {{/if}}
             {{/match}}
             {{#if @site.description}}
-                {{!-- <p class="site-description">{{@site.description}}</p> --}}
-                <p class="site-description">Cloud-Native Softwareentwickler mit Fokus auf<br />Microsoft Azure und DevOps.</p>
+                <p class="site-description">{{@site.description}}</p>
             {{/if}}
         </div>
     {{/match}}
