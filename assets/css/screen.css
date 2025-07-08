@@ -313,13 +313,13 @@ production stylesheet in assets/built/screen.css
     grid-template-columns: auto 1fr auto;
 }
 
-.is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-logo {
+/* .is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-logo {
     display: none;
-}
+} */
 
-.is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-menu {
+/* .is-head-left-logo.home-template .gh-head:not(.is-header-hidden) .gh-head-menu {
     margin-left: -40px;
-}
+} */
 
 @media (min-width: 992px) {
     .is-head-left-logo .gh-head-menu {
